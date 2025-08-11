@@ -1,0 +1,27 @@
+def calculate():
+   """
+  performs a basic arithmetic calculation based on user input.
+   """
+   print("welcome to the unique basic calculator!")
+       print("---------------------------------------------------------")
+
+     try: 
+        # Get the first number from the user
+          num1 = float(input("Enter the first number: "))
+           # Get the desired operation from the user
+             operation =input("Enter the operation(+,-,*,/): ")
+              # perform the calculation based on the operation
+               if operation == '+':
+                result = num1 - num2
+               print(f"{num1} * {num2} = {result}")
+                   elif operation == '/':
+        # Handle division by zero error
+              if num2 ! = 0
+                result = num1 / num2
+                print{f"{num1} / {num2} = {result} ")
+                        else:
+                         print(" Error: Invalid input. please enter valid numbers.")
+                  except Exception as e:
+                      print (f" An unexpected error occured: {e}")
+      # Run the calculator function if _name_ == "_main_":
+           calculate()
